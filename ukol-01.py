@@ -6,9 +6,11 @@ baliky = {
     "B947X": False,
 }
 
-code = input("Zadej kód balíku: ")
-if "code" in baliky:
-  true = baliky['B541X','B501X']
-  print(f"Balík byl předán kurýrovi: {true}.")
-else:
-  print("Balík zatím nebyl předán kurýrovi")
+number = input("Zadej kód balíku: ")
+handed = number[True]
+for item in baliky:
+  if item ["number"] == True:
+    handed == item ["True"]
+    print(f"Balík číslo {handed} byl předán kurýrovi.")
+  else:
+    print("Balík zatím nebyl předán kurýrovi")
